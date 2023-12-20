@@ -11,6 +11,7 @@
 		F80DFE1F2B33430400084E97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80DFE1E2B33430400084E97 /* ContentView.swift */; };
 		F80DFE212B33430500084E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80DFE202B33430500084E97 /* Assets.xcassets */; };
 		F80DFE242B33430500084E97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80DFE232B33430500084E97 /* Preview Assets.xcassets */; };
+		F80DFE2D2B33439B00084E97 /* CannyEdgeDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80DFE2C2B33439B00084E97 /* CannyEdgeDetector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F80DFE1E2B33430400084E97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F80DFE202B33430500084E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F80DFE232B33430500084E97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F80DFE2C2B33439B00084E97 /* CannyEdgeDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CannyEdgeDetector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				F80DFE1C2B33430400084E97 /* CoreImageCannyEdgeDetectionApp.swift */,
 				F80DFE1E2B33430400084E97 /* ContentView.swift */,
+				F80DFE2C2B33439B00084E97 /* CannyEdgeDetector.swift */,
 				F80DFE202B33430500084E97 /* Assets.xcassets */,
 				F80DFE222B33430500084E97 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80DFE2D2B33439B00084E97 /* CannyEdgeDetector.swift in Sources */,
 				F80DFE1F2B33430400084E97 /* ContentView.swift in Sources */,
 				F80DFE1D2B33430400084E97 /* CoreImageCannyEdgeDetectionApp.swift in Sources */,
 			);
